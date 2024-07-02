@@ -1,0 +1,3 @@
+[submodule "Second-Brain"]
+	path = content
+	url = git@github.com:huaminghuangtw/Second-Brain.git

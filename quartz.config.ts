@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 hua-Ming's Digital Garden",
+    pageTitle: "🪴 Hua-Ming's Digital Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/Daily-Bullet-Journal", "**/Templates"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
