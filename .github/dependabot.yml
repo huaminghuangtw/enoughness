@@ -15,9 +15,10 @@ updates:
     allow:
       - dependency-type: "all"
     registries:
-      - private-repo
+      -  github-hex-repository
 registries:
-  private-repo:
-    type: "git"
-    url: "https://github.com/huaminghuangtw/Second-Brain.git"
-    token: "${{secrets.DEPENDABOT_TOKEN}}"
+  github-hex-repository:
+    type: hex-repository
+    repo: Second-Brain
+    url: https://github.com/huaminghuangtw/Second-Brain.git
+    auth-key: ${{secrets.DEPENDABOT_TOKEN}}
