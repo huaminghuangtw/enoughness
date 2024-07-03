@@ -20,6 +20,7 @@ const config: QuartzConfig = {
       "private",
       "templates",
       ".obsidian",
+      "README",
       "**/Daily-Bullet-Journal",
       "**/Weekly-Mindware-Update",
       "**/Templates"
