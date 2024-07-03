@@ -10,6 +10,14 @@ updates:
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "chore"
-      prefix-development: "chore"
+      prefix: "chore(deps)"
       include: "scope"
+    allow:
+      - dependency-type: "all"
+    registries:
+      - private-repo
+registries:
+  private-repo:
+    type: "git"
+    url: "https://github.com/huaminghuangtw/Second-Brain.git"
+    token: "${{secrets.DEPENDABOT_TOKEN}}"
