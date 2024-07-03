@@ -9,16 +9,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    commit-message:
-      prefix: "chore(deps)"
-      include: "scope"
-    allow:
-      - dependency-type: "all"
-    registries:
-      -  github-hex-repository
+    registries: "*"
 registries:
-  github-hex-repository:
-    type: hex-repository
-    repo: Second-Brain
-    url: https://github.com/huaminghuangtw/Second-Brain.git
-    auth-key: ${{secrets.DEPENDABOT_TOKEN}}
+  github-octocat:
+    type: git
+    url: https://github.com
+    username: huaminghuangtw
+    password: ${{secrets.DEPENDABOT_TOKEN}}
