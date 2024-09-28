@@ -16,11 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "enoughness.art",
-    ignorePatterns: [
-      ".obsidian",
-      "README.md",
-      "**/Templates"
-    ],
+    ignorePatterns: [],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
