@@ -16,7 +16,9 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "enoughness.art",
-    ignorePatterns: [],
+    ignorePatterns: [
+      "LifeNotes/"
+    ],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
