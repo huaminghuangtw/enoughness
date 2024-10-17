@@ -17,7 +17,9 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "enoughness.art",
     ignorePatterns: [
-      "LifeNotes/"
+      "/LifeNotes",
+      "/Templates",
+      "/Visuals"
     ],
     defaultDateType: "created",
     theme: {
@@ -71,8 +73,9 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({
-        markdownLinkResolution: "absolute",
-        lazyLoad: true
+        markdownLinkResolution: "relative",
+        lazyLoad: true,
+        externalLinkIcon: false
       }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
