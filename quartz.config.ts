@@ -17,9 +17,9 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "enoughness.art",
     ignorePatterns: [
-      "/LifeNotes",
-      "/Templates",
-      "/Visuals"
+      "LifeNotes",
+      "Templates",
+      "Visuals"
     ],
     defaultDateType: "created",
     theme: {
