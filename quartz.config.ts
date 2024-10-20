@@ -19,7 +19,8 @@ const config: QuartzConfig = {
     ignorePatterns: [
       "**/LifeNotes",
       "**/Templates",
-      "**/Visuals"
+      "**/Visuals",
+      "**/Scripts"
     ],
     defaultDateType: "created",
     theme: {
