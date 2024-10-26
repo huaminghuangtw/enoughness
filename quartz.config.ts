@@ -20,7 +20,8 @@ const config: QuartzConfig = {
       "**/LifeNotes",
       "**/Templates",
       "**/Visuals",
-      "**/Scripts"
+      "**/Scripts",
+      "Homepage.md"
     ],
     defaultDateType: "created",
     theme: {
