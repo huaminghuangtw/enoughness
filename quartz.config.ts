@@ -21,6 +21,7 @@ const config: QuartzConfig = {
       "**/Templates",
       "**/Visuals",
       "**/Scripts",
+      "**/Plots",
       "Homepage.md"
     ],
     defaultDateType: "created",
